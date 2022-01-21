@@ -1,0 +1,12 @@
+n = 0
+actual_adder = 0
+import time
+while True:
+    
+    adder = ((-1)**n)/(2*n+1)
+    actual_adder = actual_adder+adder
+    print("****************************************")
+    pi = 4*actual_adder
+    print("π = {}".format(pi))
+    print("")
+    n +=1
